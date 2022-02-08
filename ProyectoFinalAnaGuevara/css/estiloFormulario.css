@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/portadaSakura.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    background: rgba(0, 0, 0, 0.6);
+    width: 750px;
+    margin: auto;
+    padding: 5px px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: 'Rajdhani', sans-serif;
+    color: #21E0D0;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedor .form .form-header .form-title span{
+    color: #fff;
+}
+
+.contenedor .form{
+    
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+.contenedor .form .form-label, p{
+    display: block;
+    color: #21E0D0;
+    font-size: 16px;   
+}
+
+.contenedor .form .form-input, .form-textarea{
+    background: rgba(0, 0, 0, .7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #21E0D0;;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+
+.contenedor .form .btn-submit{
+    width: 100%;
+    outline: none;
+    background: hsl(184, 70%, 35%);;
+    font-size: 16px;
+    border: none;
+    color:  #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+   
+}
+
+.contenedor .form .btn-submit:hover {
+    background: #0b615a;
+}
+
+.form{
+    margin-bottom: 50px;
+}
+a{
+    font-weight: normal;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+    color: #64dfd4;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
